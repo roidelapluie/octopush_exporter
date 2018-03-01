@@ -30,3 +30,12 @@ $ go build
 ```
 ./octopush_exporter -config conf.yml
 ```
+
+
+## Metrics
+
+```
+octopush_balance{balance="FR",route="1",route_env="prod",type="direct-32"} 14065.62
+octopush_balance{balance="XXX",route="1",route_env="prod",type="direct-32"} 18003.96
+```
+
